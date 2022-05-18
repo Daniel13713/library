@@ -10,11 +10,7 @@ import uuid
 
 
 class BaseModel:
-    """
-    ------------------------------------------------
-    Base Class for the Models
-    ------------------------------------------------
-    """
+    """Base Class for the Models"""
 
     def __init__(self, *args, **kwargs):
         """
@@ -58,4 +54,3 @@ class BaseModel:
         ------------------------------------------------
         """
         pass
-
